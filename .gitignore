@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.su
+
+# kernel stuff
+*.elf
+*.iso
+
+bochslog.txt
+stage2_eltorito
