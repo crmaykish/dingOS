@@ -17,6 +17,7 @@ align 4
     dd FLAGS
     dd CHECKSUM
 
+loader:
     mov esp, kernel_stack + KERNEL_STACK_SIZE
 
     extern kmain
